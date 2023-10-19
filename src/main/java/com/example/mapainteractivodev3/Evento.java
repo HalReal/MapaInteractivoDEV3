@@ -18,5 +18,5 @@ public class Evento {
     @ManyToOne
     private Lugar lugar;
 
-    // Constructores, getters y setters
+    // c, g, s etc
 }

@@ -7,7 +7,7 @@ import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 
 public class LugarDAO {
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("myPU");
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("default");
 
     public void crearLugar(Lugar lugar) {
         EntityManager em = emf.createEntityManager();

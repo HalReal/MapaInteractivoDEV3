@@ -7,7 +7,7 @@ import jakarta.persistence.EntityTransaction;
 import jakarta.persistence.Persistence;
 
 public class EventoDAO {
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("myPU");
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("default");
 
     public void crearEvento(Evento evento) {
         EntityManager em = emf.createEntityManager();

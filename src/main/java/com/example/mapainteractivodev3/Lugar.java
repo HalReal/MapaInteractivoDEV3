@@ -15,5 +15,5 @@ public class Lugar {
     @OneToMany(mappedBy = "lugar")
     private List<Evento> eventos;
 
-    // Constructores, getters y setters
+    // Espacio para constructores, getters, setters etc etc
 }
