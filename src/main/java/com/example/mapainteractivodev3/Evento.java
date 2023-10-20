@@ -16,7 +16,7 @@ public class Evento {
     private LocalTime horaFin;
 
     @ManyToOne
-    private Lugar lugar;
+    private Local local;
 
     // c, g, s etc
 }

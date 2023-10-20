@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import java.util.List;
 
 @Entity
-public class Lugar {
+public class Local {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
